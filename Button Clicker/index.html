@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <script src="script.js"></script>
+        <div class="nav">
+            <div class="navmiddle">
+                <h1 class="nav-title">Dojonary</h1>
+                <ul class="nav-links">
+                    <li><textarea cols="40"></textarea></li>
+                    <li><button class="navbtn" id="btn" onclick="changename(this)">Login</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainleft">
+                <div class="card">
+                    <div class="cardname">
+                        <ul class="cardlist">
+                            <li>Ninja</li>
+                            <li class="italic">noun</li>
+                            <li class="smallerfont">Plural: <span class="italic">ninjas</span></li>
+                            <li><button class="cardbtn" onclick="ninjaalert()">13 Likes</button></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="carddesc">
+                        A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardname">
+                        <ul class="cardlist">
+                            <li>Ninja</li>
+                            <li class="italic">noun</li>
+                            <li class="smallerfont">Plural: <spann class="italic">ninjas</spann></li>
+                            <li><button class="cardbtn">37 Likes</button></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="carddesc">
+                        A programmer who breaks down problems with<a href="#">zen</a>-like focus.
+                    </div>
+                </div>
+            </div>   
+            <div class="mainright">
+                <div class="definitionbox">
+                    <div class="cardDefinition">   
+                        <ul>
+                            <li>Dojonary is defined by YOU</li>
+                            <li><button class="definitionbtn" onclick="hide(this)">Add Definition</button></li>
+                        </ul>
+                                                  
+                    </div>
+                </div>
+                
+             </div>
+        </div>
+    </div>
+</body>
+</html>
