@@ -1,0 +1,135 @@
+* {
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+
+  }
+.container {
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+/* Begin Nav*/
+.nav{
+    width: auto;
+ 
+
+}
+.navmiddle{
+    background-color: black;
+    width:750px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+
+.nav-title{
+    color:white;
+    margin-right:auto;
+    padding: 10px 30px;
+    
+}
+
+/*end nav*/
+
+.main {
+    margin:0 auto;
+    width: 750px;
+    display: flex;
+    gap:10%
+
+}
+
+.mainleft{
+    flex:1;
+    margin-right: 10px;
+}
+
+.mainright{
+    flex:3;
+}
+.mainright h1{
+    margin: 5px 0px;
+}
+
+
+/* Begin Card*/
+
+.card{
+
+    background-color: white;
+    margin-top: 40px;
+    display:flex;
+    flex-flow:column;
+    text-align: center;
+    border: 3px solid lightgrey;
+    padding: 30px;
+    justify-content:space-between;
+   
+}
+.card h1{
+    font-weight: lighter;
+    font-size:120%;
+    padding-top: 10px;    
+}
+.card img{
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.cardname ul{
+    list-style: none;
+}
+
+.italic{
+    font-style: italic ;
+}
+.smallerfont{
+    font-size: smaller;
+}
+.cardlist{
+    text-align: center;
+}
+.carddesc{ 
+    flex: 3;
+    margin-left: 20px;
+    font-size: larger;
+    padding: 45px 0px 0px;
+}
+
+
+.feedbox{
+
+    background-color: white;
+    margin-top: 5px;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    border: 3px solid lightgrey;
+    padding: 20px;
+    
+}
+.feedname{
+    display: flex;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+.feedname h1{
+    width:40%;
+    font-weight: lighter;
+    font-size:150%;
+    padding-left: 20px;
+}
+.feeddesc {
+    padding-left: 20px;
+}
+.btn{
+    margin-left:20px;
+    padding:3px 5px;
+    background-color: goldenrod;
+}

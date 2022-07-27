@@ -1,0 +1,25 @@
+.box{
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.firstline{
+    display: inline;
+    padding: 20px;
+
+}
+.secondline{
+    padding: 0px 0px 20px 20px;
+    
+
+}
+.firstline h1{
+    font-weight: normal;
+}
+.btn{
+    height: 20px;
+    color: white;
+    background-color: goldenrod;
+}

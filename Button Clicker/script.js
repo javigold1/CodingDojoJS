@@ -2,8 +2,8 @@ function hide(element) {
     element.remove();
 }
 
-function changename(btn){
-    btn.innertext = "logout"
+function changename(element){
+    element.innerhtml = "logout";
 }
 
 function ninjaalert() {
